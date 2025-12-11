@@ -1,0 +1,372 @@
+            body {
+                background-image: url(https://img.freepik.com/free-photo/dark-grunge-texture_1048-4055.jpg?t=st=1742029431~exp=1742033031~hmac=0aadf8b21a50322983a9dc2f099af7712c052d4406dd68ddd52a4b64fe1c66d3&w=996);
+                position: relative;
+            }
+
+            .logo {
+                float: left;
+            }
+
+            .back {
+                background-image: url(https://img.freepik.com/free-vector/hand-drawn-pizza-pattern-background_23-2150905263.jpg?t=st=1741786244~exp=1741789844~hmac=67bc1b1c8c55cccdc54599bce0fa802bd82e51664385303ba1e313cb4558af7d&w=1380);
+                background-repeat: no-repeat;
+                background-size: 1500px;
+            }
+
+            h2 {
+                text-align: right;
+                margin-top: 350px;
+                font-size: xx-large;
+                font-family: cursive;
+                color: white;
+            }
+
+            marquee {
+                margin-top: 360px;
+            }
+
+            .nav a {
+                display: block;
+                padding: 100px;
+                font-size: 19px;
+                color: white;
+                text-align: center;
+                padding: 20px 20px;
+                text-decoration: none;
+                float: left;
+            }
+
+            .nav a:hover {
+                background-color: black;
+            }
+
+            .empty {
+                background-color: black;
+            }
+
+            .specials {
+                background-image: url(spec.jpg);
+                color: white;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+            .nada {
+                background-color: black;
+                color: black;
+            }
+
+            .items {
+                align-items: left;
+            }
+
+            .deal1 {
+                margin: 10px;
+                margin-left: 100px;
+            }
+
+            .deal2 {
+                margin: 40px;
+                margin-left: 100px;
+            }
+
+            .deal3 {
+                margin: 40px;
+                margin-left: 100px;
+            }
+
+            img {
+                border-radius: 50px 0 0 50px;
+            }
+
+            .right {
+                float: right;
+                color: black;
+            }
+            .suggestion-box {
+                padding:5px;
+                font-size:15px;
+                font-weight: bold;
+                color: rgb(34, 6, 6);
+                text-align: center;
+                width:400px;
+                height:auto;
+                position:absolute;
+                top: 800px;
+                right:1px;
+                background-color:#ffd700;
+                border-radius: 50px;
+            }
+            #randomPizza{
+                color:black;
+            }
+            .btn {
+                padding: 10px 20px;
+                background-color:brown;
+                color: white;
+                border: none;
+                cursor: pointer;
+                transition: transform 0.3s ease;
+                border-radius:10px;
+                font-size:15px;
+                margin-right:8px;
+            }
+            .btn:hover {
+                transform: scale(1.1);
+            }
+            
+
+            .box1 {
+                border: solid cornsilk;
+                border-radius: 0 50px 50px 0;
+                background-color: cornsilk;
+                color: black;
+                padding: 40px;
+                margin-left: 540px;
+                margin-right: 100px;
+                margin-top: -210px;
+            }
+
+            .box2 {
+                border: solid cornsilk;
+                border-radius: 0 50px 50px 0;
+                background-color: cornsilk;
+                color: black;
+                padding: 12px;
+                margin-left: 540px;
+                margin-right: 100px;
+                margin-top: -240px;
+            }
+
+            .box3 {
+                border: solid cornsilk;
+                border-radius: 0 50px 50px 0;
+                background-color: cornsilk;
+                color: black;
+                padding: 13px;
+                margin-left: 540px;
+                margin-right: 100px;
+                margin-top: -240px;
+            }
+
+            .body {
+                font-family: 'Poppins', sans-serif;
+                color: white;
+                font-weight: bolder;
+                background-image: url(menuback.jpg);
+                background-size: cover;
+            }
+
+            .wrapper {
+                width: 1200px;
+                margin: 100px auto;
+            }
+
+            .title {
+                text-align: center;
+                margin-bottom: 60px;
+            }
+
+            .title h4 {
+                text-transform: capitalize;
+                font-size: 36px;
+                position: relative;
+                display: inline-block;
+                padding-bottom: 10px;
+            }
+
+            .title h4 span {
+                display: block;
+                font-size: 18px;
+                font-style: italic;
+                margin-bottom: 10px;
+                color: #ff7720;
+            }
+
+            .title h4:before {
+                position: absolute;
+                width: 100px;
+                height: 2px;
+                background-color: #ff7720;
+            }
+
+            .menu {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+
+            .single-menu {
+                flex-basis: 580px;
+                margin-bottom: 40px;
+                padding-bottom: 40px;
+                border-bottom: 1px solid #ddd;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .single-menu img {
+                border-radius: 50%;
+            }
+
+            .gallery {
+                font-size: x-large;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-weight: bolder;
+                color: white;
+                text-align: left;
+            }
+
+            .image {
+                border-radius: 50px;
+            }
+
+            .image img {
+                border-radius: 50%;
+                margin: 10px;
+                margin-left: 50px;
+                border: black;
+                width: 200px;
+                height: 200px;
+                transition: width 2s;
+                transition: height 2s;
+
+            }
+
+            .image img:hover {
+                width: 220px;
+                height: 220px;
+
+            }
+
+            .contact {
+                color: white;
+            }
+
+            .contact h1 {
+                text-align: center;
+            }
+
+            .contact h3 {
+                text-align: center;
+            }
+
+            .Adress {
+                text-align: center;
+                margin-top: 25px;
+            }
+
+            .cont {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                padding: 25px;
+                margin-top: 25px;
+            }
+
+            li {
+                text-align: left;
+            }
+
+            .cont a {
+                text-decoration: none;
+                color: white;
+            }
+
+            .foot {
+                color: white;
+                font-size: large;
+            }
+
+            .foot img {
+                height: 150px;
+                width: 200px;
+                margin-left: 370px;
+            }
+
+            .help {
+                margin-left: 300px;
+            }
+
+            button {
+                height: 50px;
+                width: 120px;
+                border-radius: 10px;
+            }
+
+            h3 {
+                color: white;
+                margin-left: 50px;
+            }
+
+            .help img {
+                height: 50px;
+                width: 50px;
+                margin-left: 20px;
+                display: inline-block;
+            }
+
+            .right {
+                float: right;
+                margin-top: -60px;
+                margin-right: 350px;
+                margin-bottom: 50px;
+            }
+
+            .low {
+                font-size: 98px;
+                font-family: :Arial, Helvetica, sans-serif;
+                font-style: italic;
+                color: rgb(224, 244, 72);
+            }
+
+            .gallery {
+                background-image: url(https://img.freepik.com/free-photo/dark-grunge-texture_1048-4055.jpg?t=st=1742029431~exp=1742033031~hmac=0aadf8b21a50322983a9dc2f099af7712c052d4406dd68ddd52a4b64fe1c66d3&w=996);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+
+            .popup {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: white;
+                padding: 20px;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+                display: none;
+                z-index: 1000;
+                color: black;
+                text-align: center;
+                border-radius: 30px;
+            }
+
+            .popup-overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5);
+                display: none;
+                z-index: 999;
+                color: black;
+            }
+
+            .popup button {
+                margin-top: 10px;
+                padding: 5px 10px;
+                background: red;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
+
+            #pop {}
